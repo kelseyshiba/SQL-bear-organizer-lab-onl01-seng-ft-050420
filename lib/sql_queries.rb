@@ -20,7 +20,7 @@ def select_youngest_bear_and_returns_name_and_age
 end
 
 def selects_most_prominent_color_and_returns_with_count
-  "SELECT COUNT(color) FROM bears WHERE "
+  "SELECT color COUNT color FROM bears ORDER BY color;"
 end
 
 def counts_number_of_bears_with_goofy_temperaments #DONE
@@ -30,3 +30,10 @@ end
 def selects_bear_that_killed_Tim #DONE
   "SELECT * FROM bears WHERE name IS NULL;"
 end
+
+SELECT       `column`,
+             COUNT(`column`) AS `value_occurrence` 
+    FROM     `my_table`
+    GROUP BY `column`
+    ORDER BY `value_occurrence` DESC
+    LIMIT    1;
