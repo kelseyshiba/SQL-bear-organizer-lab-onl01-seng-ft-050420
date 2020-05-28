@@ -31,9 +31,9 @@ def selects_bear_that_killed_Tim #DONE
   "SELECT * FROM bears WHERE name IS NULL;"
 end
 
-SELECT       `column`,
-             COUNT(`column`) AS `value_occurrence` 
-    FROM     `my_table`
-    GROUP BY `column`
-    ORDER BY `value_occurrence` DESC
-    LIMIT    1;
+# SELECT       `column`,
+#             COUNT(`column`) AS `value_occurrence` 
+#     FROM     `my_table`
+#     GROUP BY `column`
+#     ORDER BY `value_occurrence` DESC
+#     LIMIT    1;
