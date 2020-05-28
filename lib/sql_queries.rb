@@ -12,7 +12,7 @@ end
 
 def selects_oldest_bear_and_returns_name_and_age
   # "SELECT name, age FROM bears WHERE MAX(age); "
-  "SELECT MAX(age) FROM bears WHERE;"
+  "SELECT MAX(age) AS age, name FROM bears;"
 end
 
 def select_youngest_bear_and_returns_name_and_age
